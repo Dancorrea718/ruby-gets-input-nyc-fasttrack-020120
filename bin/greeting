@@ -1,5 +1,8 @@
-bin
-   -- greeting
-lib
-   -- hello_ruby_programmer.rb 
-   
+#!/usr/bin/env ruby
+
+require_relative '../lib/hello_ruby_programmer.rb 
+
+puts "Please tell your name"
+their_name = gets.strip
+
+greeting(their_name)
